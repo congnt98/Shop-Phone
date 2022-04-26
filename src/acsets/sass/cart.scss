@@ -1,0 +1,49 @@
+.cart {
+  margin-top: 40px;
+  .btn_table {
+    background: #17a2b8;
+    border: 1px solid #eee;
+  }
+  .cart_table {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    td {
+      vertical-align: inherit;
+    }
+    img {
+      max-height: 150px;
+      min-width: 50px;
+    }
+    .btn_icrease {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      padding: 2px 25px;
+      border-right: none;
+    }
+    .btn_decrease {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-left: 1px solid rgb(156, 152, 152);
+      padding: 2px 25px;
+    }
+    .btn_payment {
+      border-radius: 5px;
+      padding: 5px 40px;
+    }
+    .btn_delete {
+      border: 1px solid #17a2b8;
+      border-radius: 50%;
+      &:focus {
+        outline: none;
+      }
+      i {
+        color: #17a2b8;
+      }
+      i {
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

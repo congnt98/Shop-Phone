@@ -1,0 +1,23 @@
+header{
+    .logo{
+        background-color: #000;
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+        span{
+            color:#EE0000;
+        }
+    }
+    .loguser{
+        li {
+            a{
+                color: antiquewhite;
+                margin: 0 5px;
+                &:hover{
+                    text-decoration:none;
+                    color:red
+                }
+            }
+        }
+    }
+}
